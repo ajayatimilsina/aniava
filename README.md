@@ -1,4 +1,4 @@
-https://anivaajimaru-default-rtdb.firebaseio.com/ aniva アプリ ID 1:308884440439:web:c464ea26859d24988c0d72 リンク先の Firebase Hosting サイト anivaajimaru
+ アプリ ID 1: リンク先の Firebase Hosting サイト 
 
 SDK の設定と構成
 
@@ -10,9 +10,9 @@ Config npm とモジュール バンドラ（webpack や Rollup など）をす�
 
 npm install firebase 次に Firebase を初期化し、使用するプロダクトの SDK の利用を開始します。
 
-// Import the functions you need from the SDKs you need import { initializeApp } from "firebase/app"; import { getAnalytics } from "firebase/analytics"; // TODO: Add SDKs for Firebase products that you want to use // https://firebase.google.com/docs/web/setup#available-libraries
+// Import the functions you need from the SDKs you need import { initializeApp } from "firebase/app"; import { getAnalytics } from "firebase/analytics"; // TODO: Add SDKs for Firebase products that you want to use //
 
-// Your web app's Firebase configuration // For Firebase JS SDK v7.20.0 and later, measurementId is optional const firebaseConfig = { apiKey: "AIzaSyBq1xj8h2hRp_ZzIxHTALb6rMtvSOZJQ8o", authDomain: "anivaajimaru.firebaseapp.com", databaseURL: "https://anivaajimaru-default-rtdb.firebaseio.com", projectId: "anivaajimaru", storageBucket: "anivaajimaru.firebasestorage.app", messagingSenderId: "308884440439", appId: "1:308884440439:web:c464ea26859d24988c0d72", measurementId: "G-22HE8SE1DM" };
+
 
 // Initialize Firebase const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app); 注: このオプションではモジュラー JavaScript SDK を使用します。これにより SDK のサイズが小さくなります。
 
@@ -190,7 +190,6 @@ OPTION #133 欠品 Remove Name とりさし Category サブメニュー Price (�
 OPTION #134 欠品 Remove Name とり刺身3種盛り Category サブメニュー Price (¥) 770 OPTION（名前 / 追加料金）
 OPTION #135 欠品 Remove Name チキン南蛮 Category 定食 Price (¥) 980 OPTION（名前 / 追加料金）
 OPTION
-https://anivaajimaru-default-rtdb.firebaseio.com/ aniva アプリ ID 1:308884440439:web:c464ea26859d24988c0d72 リンク先の Firebase Hosting サイト anivaajimaru
 
 SDK の設定と構成
 
@@ -204,7 +203,6 @@ npm install firebase 次に Firebase を初期化し、使用するプロダク�
 
 // Import the functions you need from the SDKs you need import { initializeApp } from "firebase/app"; import { getAnalytics } from "firebase/analytics"; // TODO: Add SDKs for Firebase products that you want to use // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration // For Firebase JS SDK v7.20.0 and later, measurementId is optional const firebaseConfig = { apiKey: "AIzaSyBq1xj8h2hRp_ZzIxHTALb6rMtvSOZJQ8o", authDomain: "anivaajimaru.firebaseapp.com", databaseURL: "https://anivaajimaru-default-rtdb.firebaseio.com", projectId: "anivaajimaru", storageBucket: "anivaajimaru.firebasestorage.app", messagingSenderId: "308884440439", appId: "1:308884440439:web:c464ea26859d24988c0d72", measurementId: "G-22HE8SE1DM" };
 
 // Initialize Firebase const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app); 注: このオプションではモジュラー JavaScript SDK を使用します。これにより SDK のサイズが小さくなります。
 
