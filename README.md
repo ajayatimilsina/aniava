@@ -1,5 +1,35 @@
- アプリ ID 1: リンク先の Firebase Hosting サイト 
+送信者 ID
 
+981714080244
+
+ https://aninavb-default-rtdb.firebaseio.com/ アプリ ID1:981714080244:web:05440fee9a47322bf369a1  1: リンク先の Firebase Hosting サイト // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC7StwDdV1lLN8CHzrVHcIgRW7U3evZvq0",
+  authDomain: "aninavb.firebaseapp.com",
+  databaseURL: "https://aninavb-default-rtdb.firebaseio.com",
+  projectId: "aninavb",
+  storageBucket: "aninavb.firebasestorage.app",
+  messagingSenderId: "981714080244",
+  appId: "1:981714080244:web:05440fee9a47322bf369a1",
+  measurementId: "G-1E3RCQEBBH"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
 SDK の設定と構成
 
 npm
